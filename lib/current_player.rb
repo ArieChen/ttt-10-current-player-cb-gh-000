@@ -10,5 +10,5 @@ end
 
 def current_player(board)
   move_count = turn_count(board)
-  (move_count % 2 == 0) ? "X" : "0"  
+  (move_count % 2 == 0) ? "X" : "0"
 end
